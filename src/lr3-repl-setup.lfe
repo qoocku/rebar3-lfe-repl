@@ -1,7 +1,7 @@
 (defmodule lr3-repl-setup
   (export all))
 
-(include-lib "clj/include/compose.lfe")
+(include-lib "lfe/include/clj.lfe")
 
 (defun set-name (state)
   (rebar_api:debug "Setting up name ..." '())
