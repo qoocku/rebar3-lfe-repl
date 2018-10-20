@@ -1,7 +1,7 @@
 (defmodule lr3-repl-util
   (export all))
 
-(include-lib "clj/include/compose.lfe")
+(include-lib "lfe/include/clj.lfe")
 
 (defun get-apps (state)
   (rebar_api:debug "\tGetting apps ..." '())
